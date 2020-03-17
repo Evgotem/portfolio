@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagine</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alegreya&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="preloader">      
+        <object  id="preloader-logo" class="preloader-logo" data="img/SVG/Preloader/animated.svg" type="image/svg+xml"></object>
+        <p class="preloader-text" id="preloader-text">
+          <span id="counter">0</span> идей <br>
+           для твоего проекта
+        </p>
+    </div>
+    <header>
+      <nav class="main-nav">
+        <a href="#" class="nav-link">
+          Стать героем
+        </a>
+      </nav>
+      <img class="logo" src="img/svg/Logo/Logo.svg" alt="Логотип Imagine" />
+    </header>
+    <section class="city">
+      <img src="img/png/Block1/background.png" alt="" class="background" />
+      <img src="img/png/Block1/house_1.png" alt="" class="house_1" />
+      <img src="img/png/Block1/house_2.png" alt="" class="house_2" />
+      <img src="img/png/Block1/house_3.png" alt="" class="house_3" />
+      <img src="img/png/Block1/moscow-city.png" alt="" class="moscow" />
+      <img src="img/png/Block1/bridge.png" alt="" class="bridge" />
+      <img src="img/png/Block1/hero.png" alt="" class="hero" />
+      <img src="img/png/Block1/lighters.png" alt="" class="lighters" />
+    </section>
+
+    <audio  autoplay loop class="audio">      
+      <source src="audio/gorod.wav" type="audio/wav" >      
+    </audio>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/preloader.js"></script>
+  </body>
+</html>

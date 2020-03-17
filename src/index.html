@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё мини портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-wrap">
+                <div class="avatar">
+                    <div class="photo-wraper">
+                        <img class="avatar__photo" src="img/photo.jpg" alt="аватар">
+                    </div>
+                    <p class="avatar__title">
+                        Темрязанский Евгений
+                    </p>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav__item"><a class="nav__link" href="https://vk.com/evgotem" target="_blank"><i class="fab fa-vk"></i></a></li>
+                        <li class="nav__item"><a class="nav__link" href="tg://resolve?domain=Evgotem"><i class="fab fa-telegram"></i></a></li>
+                        <li class="nav__item"><a class="nav__link" href="mailto:evgeny_tem@mail.ru">evgeny_tem@mail.ru</a></li>
+                        <li class="nav__item"><a class="nav__link" href="tel:+79379977745">+7 937 99 777 45</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="about">
+            <h2 class="about__title">
+                Обо мне:
+            </h2>
+            <p class="about_text">
+                На данный момент нахожусь в стадии активного обучения
+            </p>
+            <h2 class="about__title">
+                Мои навыки:
+            </h2>
+
+            <div class="wrap">  
+                <div class="tool-wrap">              
+                    <div class="tool">
+                        <span>HTML</span>
+                        <span>80%</span>
+                    </div>                    
+                </div>
+                <ul class="about__list">
+                    <li class="about__item">Семантическая разметка</li>
+                    <li class="about__item">Методология БЭМ</li>
+                </ul>
+            </div>
+            <!-- /wrap -->
+            <div class="wrap">
+                <div class="tool-wrap">              
+                    <div class="tool tool-css">
+                        <span>CSS</span>    
+                        <span>70%</span>
+                    </div>
+                    
+                </div>
+                
+                <ul class="about__list">
+                    <li class="about__item">Препроцессор Less</li>
+                    <li class="about__item">Медиа-запросы</li>
+                    <li class="about__item">Hover-эффекты</li>
+                    <li class="about__item">Анимация</li>
+                    <li class="about__item">Бутстрап</li>
+                    <li class="about__item">Флексбокс</li>
+                </ul>
+            </div>
+            <!-- /wrap -->
+            <div class="wrap">
+                <div class="tool-wrap">              
+                    <div class="tool tool-js">
+                        <span>JS</span>
+                        <span>15%</span>
+                    </div>
+                    
+                </div>
+
+                <ul class="about__list">
+                    <li class="about__item">Подключение и использование библиотек</li>
+                    <li class="about__item">Начальный уровень знаний нативного JS</li>
+                    <li class="about__item">Начальный уровень знаний jQuery</li>
+                </ul>
+            </div>
+            <!-- /wrap -->
+            <div class="wrap">
+                <div class="tool-wrap">              
+                    <div class="tool tool-gra">
+                        <span>Работа с графикой</span>
+                        <span>65%</span>
+                    </div>
+                    
+                </div>
+
+                <ul class="about__list">
+                    <li class="about__item">Photoshop</li>
+                    <li class="about__item">Figma</li>
+                    <li class="about__item">Zeplin</li>
+                </ul>
+            </div>
+        </section>
+        <!-- /about -->
+
+        <section class="portfolio">
+            <h2 class="portfolio__title">Мои недавние работы:</h2>
+            <div class="portfolio-wrap">    
+
+                <div class="portfolio__item"> 
+                    <img class="portfolio__img" src="img/logo/kinder.png" alt="">   
+                    <div class="desc-block">
+                        <h3 class="desc-subtitle">Супер Киндер</h3>
+                        <p class="desc__text">
+                            Делал дизайн и вёрстку лендинга
+                        </p>
+                        <a class="portfolio__link btn" href="projects/kinder/index.html">Посмотреть</a>
+                    </div>               
+                </div>
+
+                <div class="portfolio__item"> 
+                    <img class="portfolio__img" src="img/logo/hero-img.png" alt="">   
+                    <div class="desc-block">
+                        <h3 class="desc-subtitle">Ремонт квартир</h3>
+                        <p class="desc__text">
+                            Адаптивная вёрстка макета, с использованием библиотек animate.css, slick.slider, wow.js, validate.js
+                        </p>
+                        <p class="desc__text">
+                           Макет взят из курса Glo.academy
+                        </p>
+                        <a class="portfolio__link btn" href="projects/repair/index.html" target="_blank">Посмотреть</a>
+                    </div>               
+                </div>
+
+                <div class="portfolio__item"> 
+                    <img class="portfolio__img" src="img/logo/desktop.png" alt="">   
+                    <div class="desc-block">
+                        <h3 class="desc-subtitle">Лендинг, посвященный мечте :) </h3>
+                        <p class="desc__text">
+                            Небольшой лендинг, с курса WayUp
+                        </p>
+                        <a class="portfolio__link btn" href="projects/WayUp/index.html" target="_blank">Посмотреть</a>
+                    </div>               
+                </div>
+
+                <div class="portfolio__item"> 
+                    <img class="portfolio__img imagine" src="img/logo/imagine.png" alt="">   
+                    <div class="desc-block">
+                        <h3 class="desc-subtitle">Тестовое задание <br> ADMR Agency</h3>
+                        <p class="desc__text">
+                            Ваше тестовое задание
+                        </p>
+                        <a class="portfolio__link btn" href="projects/imagine/index.html" target="_blank">Посмотреть</a>
+                    </div>               
+                </div>
+                
+            </div>
+            <!-- /portfolio-wrap -->
+        </section>
+
+
+    </div>
+    <!-- /container -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+</body>
+</html>

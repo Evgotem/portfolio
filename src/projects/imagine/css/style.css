@@ -1,0 +1,255 @@
+body {
+  overflow-x: hidden;
+  font-family: "Alegreya", serif;
+}
+
+/* ============header============ */
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  text-align: right;
+  display: block;
+  margin-top: 67px;
+  margin-right: 167px;
+  font-size: 16px;
+  opacity: 50%;
+  text-decoration: none;
+  transition: all 0.6s;
+  position: relative;
+}
+.nav-link:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  background: #000;
+  opacity: 50%;
+  transition: all 0.3s;
+}
+.nav-link:hover:before {
+  width: 105px;
+  right: 0;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+  margin-top: 85px;
+  max-width: 1015.4px;
+  height: auto px;
+  width: 54%;
+}
+
+/* ==========city=========== */
+.city {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ======== позиционирование города ============= */
+.city img {
+  position: absolute;
+}
+.background {
+  top: -100px;
+  left: 0;
+  width: 100%;
+}
+.house_1 {
+  right: 0;
+  top: 900px;
+  z-index: 150;
+}
+.house_2 {
+  top: 0;
+  z-index: 120;
+  top: 490px;
+  right: 300px;
+}
+.house_3 {
+  top: 1000px;
+  z-index: 110;
+  left: 10%;
+  width: 50%;
+}
+.bridge {
+  top: 1900px;
+  z-index: 190;
+  left: 10%;
+}
+.moscow {
+  left: 0;
+  top: 450px;
+  z-index: 100;
+}
+.lighters {
+  right: 0;
+  top: 2000px;
+  right: 0;
+  z-index: 250;
+}
+.hero {
+  z-index: 300;
+  top: 1300px;
+}
+
+/* =============== preloader ============== */
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 999;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.preloader-logo {
+  position: fixed;
+  display: block;
+  width: 54%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.preloader-text {
+  font-size: 40px;
+  position: fixed;
+  top: 55%;
+  left: 60%;
+}
+.done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 1200px) {
+
+  .bridge {
+    top: 1900px;
+    z-index: 190;
+    width: 80%;
+  }
+
+}
+@media (max-width: 768px) {
+  .city img {
+    position: absolute;
+  }
+  .background {
+    top: 100px;
+    left: 0;
+    width: 100%;
+  }
+  .house_1 {
+    right: 0;
+    top: 900px;
+    z-index: 150;
+    width: 45%;
+  }
+  .house_2 {
+    top: 0;
+    z-index: 120;
+    top: 490px;
+    right: 200px;
+    width: 45%;
+  }
+  .house_3 {
+    top: 1000px;
+    z-index: 110;
+    left: 0;
+    width: 70%;
+  }
+  .bridge {
+    top: 1500px;
+    z-index: 190;
+    left: 5%;
+    width: 90%;
+  }
+  .moscow {
+    left: 0;
+    top: 550px;
+    z-index: 100;
+    width: 50%;
+  }
+  .lighters {
+    right: 0;
+    top: 1500px;
+    right: 0;
+    z-index: 250;
+    width: 70%;
+  }
+  .hero {
+    z-index: 300;
+    top: 1200px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px){
+  .nav-link {
+    left: 30%;
+  }
+  .city img {
+    position: absolute;
+  }
+  .background {
+    top: 100px;
+    left: 0;
+    width: 100%;
+  }
+  .house_1 {
+    right: 0;
+    top: 600px;
+    z-index: 150;
+    width: 35%;
+  }
+  .house_2 {
+    top: 0;
+    z-index: 120;
+    top: 390px;
+    right: 50px;
+    width: 45%;
+  }
+  .house_3 {
+    top: 600px;
+    z-index: 110;
+    left: 0;
+    width: 70%;
+  }
+  .bridge {
+    top: 900px;
+    z-index: 190;
+    left: 5%;
+    width: 90%;
+  }
+  .moscow {
+    left: 0;
+    top: 350px;
+    z-index: 100;
+    width: 50%;
+  }
+  .lighters {
+    right: 0;
+    top: 1000px;
+    right: 0;
+    z-index: 250;
+    width: 70%;
+  }
+  .hero {
+    z-index: 300;
+    top: 800px;
+    width: 60%;
+  }
+}
